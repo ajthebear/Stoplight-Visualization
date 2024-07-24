@@ -1,6 +1,28 @@
 {
   "name": "Stoplight Status Visualization",
+  "organization": "Your Organization Name",
   "description": "A stoplight chart showing project status based on executed and total population.",
+  "logoUrl": "",
+  "packageUrl": "https://yourdomain.com/package-info",
+  "organizationUrl": "",
+  "supportUrl": "",
+  "privacyPolicyUrl": "",
+  "termsOfServiceUrl": "",
+  "devMode": false,
+  "components": [
+    {
+      "id": "stoplightStatusViz",
+      "name": "Stoplight Status Visualization",
+      "description": "A stoplight chart showing project status based on executed and total population.",
+      "iconUrl": "https://yourdomain.com/path/to/icon.png",
+      "infoUrl": "https://yourdomain.com/visualization-info",
+      "resource": {
+        "js": "https://yourdomain.com/path/to/script.js",
+        "config": "https://yourdomain.com/path/to/manifest.json",
+        "css": "https://yourdomain.com/path/to/style.css"
+      }
+    }
+  ],
   "data": {
     "required": [
       {
@@ -40,12 +62,6 @@
         "color": "#000000",
         "opacity": 1
       }
-    }
-  },
-  "scripts": {
-    "main": {
-      "js": ["https://github.com/ajthebear/Stoplight-Visualization/blob/main/script.js"],
-      "css": ["https://example.com/path/to/your/style.css"]
     }
   }
 }
