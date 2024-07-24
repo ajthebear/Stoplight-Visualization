@@ -44,7 +44,7 @@
   },
   "scripts": {
     "main": {
-      "js": ["https://example.com/path/to/your/script.js"],
+      "js": ["https://github.com/ajthebear/Stoplight-Visualization/blob/main/script.js"],
       "css": ["https://example.com/path/to/your/style.css"]
     }
   }
