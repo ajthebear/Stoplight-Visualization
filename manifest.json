@@ -1,0 +1,51 @@
+{
+  "name": "Stoplight Status Visualization",
+  "description": "A stoplight chart showing project status based on executed and total population.",
+  "data": {
+    "required": [
+      {
+        "name": "Total Population",
+        "type": "METRIC"
+      },
+      {
+        "name": "Executed Population",
+        "type": "METRIC"
+      }
+    ],
+    "optional": [
+      {
+        "name": "Project Name",
+        "type": "DIMENSION"
+      }
+    ]
+  },
+  "style": {
+    "redThreshold": {
+      "defaultValue": 0.3,
+      "type": "NUMBER",
+      "description": "Threshold for Red status (percentage)"
+    },
+    "yellowThreshold": {
+      "defaultValue": 0.7,
+      "type": "NUMBER",
+      "description": "Threshold for Yellow status (percentage)"
+    },
+    "greenThreshold": {
+      "defaultValue": 1,
+      "type": "NUMBER",
+      "description": "Threshold for Green status (percentage)"
+    },
+    "color": {
+      "defaultValue": {
+        "color": "#000000",
+        "opacity": 1
+      }
+    }
+  },
+  "scripts": {
+    "main": {
+      "js": ["https://example.com/path/to/your/script.js"],
+      "css": ["https://example.com/path/to/your/style.css"]
+    }
+  }
+}
